@@ -62,7 +62,7 @@ function PlayMFDMovie(movie, text)
             Aeon = {texture = '/icons/comm_aeon.dds', cue = 'UI_Comm_AEON'},
             UEF = {texture = '/icons/comm_uef.dds', cue = 'UI_Comm_UEF'},
             Seraphim = {texture = '/icons/comm_seraphim.dds', cue = 'UI_Comm_SER'},
-            Nomad = {texture = '/icons/comm_nomads.dds', cue = 'UI_Comm_UEF'},
+            Nomads = {texture = '/icons/comm_nomads.dds', cue = 'UI_Comm_UEF'},
             NONE = {texture = '/icons/comm_allied.dds', cue = 'UI_Comm_UEF'}}
         
         controls.movieBrackets = Bitmap(GetFrame(0), UIUtil.SkinnableFile('/game/transmission/video-brackets.dds'))
