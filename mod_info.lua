@@ -17,3 +17,18 @@ conflicts = { }
 before = { }
 after = { }
 _faf_modname='nomadscoop'
+mountpoints = {
+    ['animations'] = '/animations',
+    ['effects'] = '/effects',
+    ['nomadhook'] = '/nomadhook',
+    ['lua'] = '/lua',
+    ['projectiles'] = '/projectiles',
+    ['textures'] = '/textures',
+    ['units'] = '/units',
+}
+hooks = {
+    '/schook',
+    '/hook',
+    '/nomadhook',
+    '/sounds',
+}
